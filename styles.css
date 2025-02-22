@@ -1,0 +1,21 @@
+
+body
+{font-family: Arial, Helvetica, sans-serif;}
+h1{color: rgb(75, 75, 174);}
+
+.centered {
+    text-align: left;
+}
+
+.intro{max-width: 500px; text-align: left;}
+
+header { background-color: aquamarine;display: flex;}
+
+
+footer {
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: italic;
+  }
+  
