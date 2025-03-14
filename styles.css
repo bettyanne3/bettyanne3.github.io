@@ -3,28 +3,64 @@
 body
 {   font-family: 'Montserrat', sans-serif;
     background-color: #f5f5f3;
-    color: #28282A  }
+    color: #28282A; 
+    padding: 0;
+    margin: 0;}
+
+.profile-text {
+        font-family: 'Montserrat', sans-serif;
+        color: #28282A;
+        font-style: bold;
+        font-size: 500px;
+    }
+    
 
 
-
-
+    main {
+        width: 100%; /* Set the width to 100% of the viewport width */
+        padding: 0; /* Remove any default padding */
+        margin: 0; /* Remove any default margin */
+    }
 p1 {
     color: #28282A ;
     font-size: 200px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
+    margin-top: 300px;
 }
 
+#betty {
+    color: #28282A;
+    font-size: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    display: block; 
+    width: 100%;
+}
+
+/* .left-align {
+    text-align: Left; 
+    margin-right: 0px;
+} */
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 .button-container {
-    position: right;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+    position: center;
     text-align: right; 
-    margin: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+
+    
 }
 
 .btn {
@@ -39,20 +75,13 @@ p1 {
 h1{
     color: rgba(34, 34, 35, 0.834);
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;;
-    margin-top: 30px;
-
-}
-.profile-text {
     font-family: 'Montserrat', sans-serif;
-    color: #28282A;
-    font-style: bold;
-    font-size: 30px;
-    text-align: left;
-    margin-top: 20px;  
-    line-height: 2; /
-    letter-spacing: 0.5px; 
-    text-transform: uppercase; 
+    margin: 0;
+}
+
+.profile-pic img {
+   margin-left: 50px;
+   margin-bottom: 100px;
 }
 
 .profile-text ul {
@@ -64,13 +93,17 @@ h1{
 
 .content-container {
     display: flex;
-    align-items: center; /* Align items vertically centered */
+    align-items: center; 
     margin-top: 90px;
 }
 
 .profile-pic {
     margin-right: 200px;
 
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .profile-text {
@@ -90,8 +123,20 @@ h2,h3{
     font-size: 15px;
     text-align: left;
     margin-top: 100px;
+
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Change the font family */
+    color: #28282A; /* Change the text color */
+    font-size: 50px; /* Change the font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: left; /* Center the text */
+    margin-top: 50px; /* Add some margin at the top */
+    margin-bottom: 100px; /* Add some margin at the bottom */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 1px; /* Adjust the letter spacing */
+}
 p {
     color: #28282A ;
     font-size: 15px;
@@ -103,9 +148,16 @@ p {
     text-align: right;
 }
 
-.intro{max-width: 700px; text-align: left;}
+.intro{max-width: 100%; 
+    text-align: left;}
 
 header { background-color: aquamarine;display: flex;}
+
+
+.camera img {
+    float: right; 
+    margin-left: 20px; 
+}
 
 
 footer {
